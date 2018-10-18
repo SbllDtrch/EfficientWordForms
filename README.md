@@ -22,10 +22,13 @@ Folder containing the correlations for the 4 celex lexicons.
 
 #Lexicons folder for the simulated lexicons once generated (empty for the sake of space)
 
-#main_wiki.py main script used ton generate the simulated lexicons for the wiki corpus. Use the following command line to make it work:
-python main_wiki.py —-f i
-Where I stands for the array index of the list of available language (see in the file), this is easy to manipulate on a cluster where you can send job array.
+#main_wiki.py main script used to generate the simulated lexicons for the wiki corpus. Use the following command line to make it work:
+python main_wiki.py —-n i
+Where i stands for the array index of the list of available language (see in the file), this is easy to manipulate on a cluster where you can send job array.
 
+#main_celex.py main script used to generate the simulated lexicons for the 4 celex lexicons.
+
+#main_perm.py main script used to generate the permuted lexicons (analysis not included in the paper)
 
 #wiki
 Folder containing the correlations for the wiki corpora.
