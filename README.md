@@ -9,6 +9,7 @@ srilm library needs to be downloaded in local with path updated in perplexity.py
 
 #celex
 Folder containing the correlations for the 4 celex lexicons.
+
 ##out_* individual files containing stats for each of the most frequent 20000 words of a given lexicon
 ##celex_real_lex_corr.txt correlations for each length in the real lexicons
 ##celex_results.txt correlations and stats for each length and each lexicon (simulated lexicons method)
